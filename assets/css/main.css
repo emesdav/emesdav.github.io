@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	margin-bottom: 10%;
 }
 
 ol, ul {
@@ -1885,6 +1886,7 @@ input, select, textarea {
 		padding: 0.75em 1em;
 	}
 
+	/*
 	input[type="checkbox"],
 	input[type="radio"] {
 		-moz-appearance: none;
@@ -1963,6 +1965,8 @@ input, select, textarea {
 	input[type="radio"] + label:before {
 		border-radius: 100%;
 	}
+
+	*/
 
 	::-webkit-input-placeholder {
 		color: #aaa !important;
@@ -2843,7 +2847,11 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 1em 0 1em 0;
+		position: fixed;
+		right: 22em;
+		bottom: 0;
+		left: 0;
 	}
 
 		#footer .copyright {

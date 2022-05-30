@@ -9,7 +9,9 @@
 		<title>Emmanuel Eshun-Davies</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/StickyMenu.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body class="is-preload">
 
@@ -17,16 +19,13 @@
 			<section id="header">
 				<header>
 					<span class="image avatar"><img src="https://avatars.githubusercontent.com/u/5101939?s=400&u=ed924578899014e1238277cc6cce5998b371b85d&v=4" alt="" /></span>
-					<h1 id="logo"><a href="#">Emmanuel Eshun-Davies</a></h1>
+					<h1 id="logo"><a href="#">Emmanuel <br/> Eshun-Davies</a></h1>
 					<p>MSc Student ePortfolio<br />
 					at Essex University, UK</p>
 				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#about" class="active">About</a></li>
-						<li><a href="#expect">What to expect here</a></li>
-					</ul>
-				</nav>
+				
+				<nav id="nav"></nav>
+
 				<footer>
 					<ul class="icons">
 						<li><a href="#" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
@@ -40,15 +39,20 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-
+				
 				<!-- Main -->
 					<div id="main">
-
-						<!-- About -->
-							<section id="about">
-								<div class="image main" data-position="center">
+						<div class="image main" data-position="center">
 									<img src="https://potomac.edu/wp-content/uploads/2020/10/best-programming-languages-for-business-majors-e1603875700910.jpg" alt="" />
 								</div>
+						<div id="TopMenu">
+							<ul>
+								<li><a href="#about" class="target" >About</a></li>
+								<li><a href="#expect" class="target" >What to Expect</a></li>
+							</ul>
+						</div>
+						<!-- About -->
+							<section id="about">
 								<div class="container">
 									<header class="major">
 										<h2>About Me</h2>
@@ -81,6 +85,18 @@
 										<li class="icon solid fa-arrow-circle-right">Software Engineering Project Management </li>
 										<li class="icon solid fa-arrow-circle-right">MSc Computing Project </li>
 									</ul>
+
+									<hr />
+
+									<p>
+										<b>How this works?</b> 
+										<br />All parts of this portfolio is divided into 5 Parts;
+										<br />+ Answers to and outputs from exercises carried out during the module
+										<br />+ Analysis of the data/information gathered in the module
+										<br />+ Reflection based on what I have learned in the module
+										<br />+ Links to all github projects
+										<br />+ Extra Comments
+									</p>
 								</div>
 							</section>
 
@@ -105,6 +121,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$(function(){
+					$("#nav").load("Menu.html"); 
+				});
+			</script>
 	</body>
 </html>
