@@ -57,23 +57,17 @@
 										<h2>Secure Software Development</h2>
 										<p>Summary</p>
 									</header>
-									<p>Information systems are responsible for collecting, storing, processing and providing knowledge about information from a 
-										range of sources. Information systems are an integrated set of components that bring together hardware, software, networking, 
-										database storage as well as the human process that may be involved.
-										<br /><br />
-										These systems are integral to the products and services that we rely on as a society and as such it is imperative that 
-										they are well-designed and developed. Object oriented design and development provides a structured approach to creating 
-										sustainable and manageable solutions.
-										<br /><br />
-										The module examines the different elements of an information system from design through to processing and storage. 
-										You will explore the fundamental concepts behind object-oriented development using UML as a tool for analysis and design. 
-										Further to this, we will make use of Python to provide concrete experience of object-oriented development.</p>
+									<p>In this module, I have come to learn that software development is not just about coding but also about paying particular attention to the whole 
+										cycle which heavily includes the planning before the software development and the maintenance that happens after the development process.
+										<br />
+										As technology is evolving, cybercrime is evolving with it. We must therefore not only focus on getting a job done, but ensuring that our stakeholders are secured and their privacy not infridged on.
+									</p>
 										<br /><br />
 										<p>This module looks at providing knwledge and understanding on the following; <br />
-											<br />-Appraise and evaluate critically the concepts and principles of information systems.
-											<br />-Design or modify and document an object-oriented information system using appropriate tools.
-											<br />-Develop an object-oriented information system design, implementing this knowledge in applicable programming languages, such as Python and SQL.
-											<br />-Develop, implement and evaluate critically information system solutions to facilitate business decisions.</p>
+											<br />-Identify and manage security risks as part of a software development project.
+											<br />-Critically analyse development problems and determine appropriate methodologies, tools and techniques (including program design and development) to solve them.
+											<br />-Design and develop/adapt computer programs and to produce a solution that meets the design brief and critically evaluate solutions that are produced.
+											<br />-Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.</p>
 								</div>
 							</section>
 
@@ -88,38 +82,35 @@
 									<div class="container--tabs">
 										<section class="row">
 											<ul class="nav nav-tabs">
-												<li class="active"><a href="#tab-1">Information System Failure</a></li>
-												<li class=""><a href="#tab-2">Object Oriented Design</a></li>
-												<li class=""><a href="#tab-3">Alternatives to SQL</a></li>
+												<li class="active"><a href="#tab-1">UML flowchart</a></li>
 											</ul>
 											<div class="tab-content">
 												<div id="tab-1" class="tab-pane active"> 
 													<span class="glyphicon glyphicon-leaf glyphicon--home--feature two columns text-center"></span>
 													<span class="col-md-10">
-														<h3>Unit 1 - Information System Failure</h3>
-														<p>As has been the history of man for a long time, we get excited over discoveries, become impatient and turn it into a competition. Then just as any other competition, speed becomes a requirement and generally anywhere there is speed, there is also the high possibility of missing a lot of details this quickly moves us to a place of desired results but not with the expected or deserving qualities. In the end, we invent or discover something else and all jump to that and start a new cycle. This cycle of repeatedly rushing things and producing errors has caught up with technology, precisely software development processes. 
+														<h3>Unit 1 - UML flowchart - Coding Weaknesses</h3>
+														<p>AAccording to the OWASP top 10 vulnerabilities, Injection appears third on the list and is recorded as "A03:2021 – Injection". 94% of the applications were tested for some form of injection with a max incidence rate of 19%, an average incidence rate of 3%, and 274k occurrences. Notable Common Weakness Enumerations (CWEs) included are CWE-79: Cross-site Scripting, CWE-89: SQL Injection, and CWE-73: External Control of File Name or Path.
 															<br /><br />
-															People get ideas, they need to produce it as fast as possible before someone else beats them to it. So there is never enough time to ensure quality. Quality check is a secondary activity in most organisational development processes and this can develop very latent issues which will only be realised when the systems in question are in full use.
-															<br />
-															An example of a system failure in the sector of security happened In August 18, 2020 with an Indian company - Juspay. Juspay, is a payment gateway startup business in Bengaluru, India, They are a payment partner for many Indian online platforms, including Amazon, Swiggy, and Makemytrip. It has been in business since 2012 with over 300 personnel and millions of transactions daily. 
+															A very common practice in little projects is that, developers tend to always wonder what anyone would want with the data of their users as they would consider their data unimportant or as of no worth to a hacker or attacker. And this causes the developer to pay less attention and invest less effort into authenticating users. In fact, some developers assume that their user category would never go beyond entering the required credentials and clicking on the login button. However, hackers have never really been part of the expected group of any app or system's users. They simply search and attack. 
 															<br /><br />
-															Unknown hackers took advantage of the company’s security vulnerabilities which could have possibly been a factor no one thought to be a risk and made away with several records of customer personal information including Credit Card Information, biometric data, and others. In a report from the company’s blog, they explained that “An old unrecycled AWS access key was exploited and that enabled the unauthorised access. An automatic system alert was triggered due to a sudden increase in the usage of the system resources on the data store. Our incident response team immediately engaged and was able to trace the intrusion and stop it. The server used in the hack was terminated and the entry point for this intrusion was sealed”
-															<br />
-															Although they may have been able to respond to the threat quickly and the stolen card data may be unusable, the privacy of each of those clients has been violated. 
+															According to the GDPR, everyone's data is valuable careless of who they are. Therefore, an assumption of the data of a person being unimportant is the very foundation of hacks.
 															<br /><br />
-															According to the AWS Best practices for managing AWS access keys, once anyone has access to your AWS access key, they as well have access to your entire account. These keys must therefore be used with extreme care. Among the guidelines on best practices states that "Remove unused access keys. If a user leaves your organization, remove the corresponding IAM user so that the user can no longer access your resources. To find out when an access key was last used, use the GetAccessKeyLastUsed API (AWS CLI command: aws iam get-access-key-last-used).” It also advices to “Configure multi-factor authentication for your most sensitive operations.”
+															From our scenario a user enters any kind of text into the search box. The search box does not have any restrictions of character. This input is then sent to a backend search engine script that sends the string immediately into a SQL command and queries the database; the result is then pushed back to the script and the script displays it to the user.
 															<br /><br />
-															Considering the incidence and how basic the prevention could have been, it is easy to deduce that Juspay must have paid attention to the bigger issues while ignoring the very basic procedures and protocols of securing their systems and clients. Although the situation is handled, it may leave a question of data integrity, user privacy and others in the minds of many. Such events could impact how many people perceive not just their business but the business of any other companies that offer similar services.
-															<br /><br /><br />
-															<b>References</b>
+															The attacker in this case, puts an SQL injection command into the search box, it goes through the whole process and returns sensitive information with the possibility of even dumping the whole database back to himself.
+															<br /><br />
+															A better way to handle this is the use of prepared statements, sanitise every entry and do not hope your users are ignorant.
+															<br /><br />
+															References
 															<br />
-															- docs.aws.amazon.com. (n.d.). Best practices for managing AWS access keys - AWS General Reference. [online] Available at: https://docs.aws.amazon.com/general/latest/gr/aws-access-keys-best-practices.html.
+															OWASP (2019). SQL Injection Prevention · OWASP Cheat Sheet Series. [online] Owasp.org. Available at: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html.
 															<br />
-															- Juspay (2021). Update on Aug’20 breach: Your data continues to be safe. [online] Medium. Available at: https://juspayproducts.medium.com/update-on-aug20-breach-your-data-continues-to-be-safe-6083dbae22aa [Accessed 10 Mar. 2022].
+															owasp.org. (n.d.). OWASP Top Ten Web Application Security Risks | OWASP. [online] Available at: http://owasp.org/www-project-top-ten/ [Accessed 28 Jun. 2022].
 															<br />
-															- Juspay (2021). Your security is our first concern. [online] Medium. Available at: https://juspayproducts.medium.com/your-security-is-our-first-concern-8d98c96e5f17.
-															<br />
-															- Jan 5, M.S. / T. / U., 2021 and Ist, 09:07 (n.d.). Amazon payment data breach: Amazon, Swiggy’s payment processor hit by data breach - Times of India. [online] The Times of India. Available at: https://timesofindia.indiatimes.com/business/india-business/amazon-swiggys-payment-processor-hit-by-data-breach/articleshow/80104462.cms [Accessed 10 Mar. 2022].</p>
+															docs.oracle.com. (n.d.). Database Security Guide. [online] Available at: https://docs.oracle.com/cd/E11882_01/network.112/e36292/guidelines.htm#DBSEG009.
+															<br /><br />
+															<img src="Files/Flowchart Example_ Login Page.png" width="100%"/>
+															</p>
 													</span>
 												</div> 
 												<div id="tab-2" class="tab-pane">
@@ -156,14 +147,14 @@
 										<section class="row">
 											<ul class="nav nav-tabs">
 												<li class="active"><a href="#tab-1">System Design</a></li>
-												<li class=""><a href="#tab-2">System Implementation</a></li>
+												<li class=""><a href="#tab-2">Coding Output</a></li>
 											</ul>
 											<div class="tab-content">
 												<div id="tab-1" class="tab-pane active"> 
 													<span class="glyphicon glyphicon-leaf glyphicon--home--feature two columns text-center"></span>
 													<span class="col-md-10">
 														<h3>Unit 1 - Information System Failure</h3>
-														<iframe src="/Files/Mid-Module Assignment- System Design - Emmanuel Eshun-Davies.pdf#toolbar=0" width="100%" height="500px"></iframe>
+														<iframe src="/Files/Design Document.pdf#toolbar=0" width="100%" height="500px"></iframe>
 													</p>
 													</span>
 												</div> 
@@ -172,9 +163,8 @@
 													<span class="col-md-10">
 														<h3>Unit 3 - Creating an object-oriented design</h3>
 														<p>
-															<b>Objective:</b> Implement the system design below into a functional web application in Python
-															<img src="/Files/System Implementation Unit 11-Module2.png" width="100%" height="500px" />
-															<b>Link to Project:</b> <a href="https://github.com/emesdav/Module-2-System-Implementation" >View Project</a>
+															<b>Objective:</b> Implement the system design into a functional application in Python
+															<b>Link to Project:</b> <a href="https://github.com/emesdav/team-separation-of-duties" >View Project</a>
 
 														</p>
 													</span>
@@ -191,78 +181,40 @@
 								<div class="container">
 									<h3>Comments & Reflections</h3>
 									<p>
-										I particularly found this Module to be really interesting. I have always in one way or the other made an attempt to implement UML,
-										and to implement OOP in my design processes. However, this Module makes me realize the proper implementation of them and I now believe
-										I have greater confidence in implementing and understanding UML diagrams specifically on a more universal point. What this means is that,
-										I would not be able to design a UML and not have to worry about legends or explanations as the diagram is using standards that is easily translatable.
+										Reflecting over the whole module, I have come to a realization of rather certain several things I may have already earned through professional experience. However, summing it all together and by end of this module I have not only come to confirming the concepts of Secured Software Development and why they are important but also come to understand certain terms and received a clearer understanding of the use and purpose of these terms. 
+										<br /><br />
+										The use of technical terms, designs, and concepts in the process of Software Development is not just to prove knowledge but to give everyone in a team a common ground to understanding what is meant and needed to get anything done. 
+										<br /><br />
+										In an attempt to not just reflect on the module but as well be more practical, I will be focusing on the team projects I worked on and some of valuable lessons am taking to my professional career.
+										<br /><br />
+										Working in a team consisting of different levels of knowledge and backgrounds I have come to the clear conclusion that software security is not just a matter of building supposed intelligent systems with several levels of checks, validations, complicated codes, and a show of technical terms, rather it is taking and paying particular attention to every level of the software design process. As a matter of fact, the most important work is the planning stages and a good understanding of the domain. From the very inception of the idea, good effort must be invested into ensuring a solid proof system with a good level of security. How this is achieved is by leaving no room for assumption. Having a clear narration of what is to be done using user stories, UML diagrams, class diagrams, etc. Then we can now map out the stakeholders, understand the need that is to be solved. Thinking for not just the stakeholders but also for the possible attacks that may come to the system or that the system may be a bridge to.
+										<br /><br />
+										Vulnerability is not just based on if the data you are collecting is important or sensitive. A lot of times, we make the mistake of thinking the data we are collecting is not of importance but per GDPR, every information collected from a person, willing or unwillingly is part of their rights and ownership and must be treated with respect. 
+										<br /><br />
+										Recent research by the Cyber Security Coalition in Belgium, shows that 1 out of every 4 Belgians use the same password at work and home. People usually want to set passwords they can remember and that is really the point, a phrase or spoken word required to go pass a certain guarded area. As such, one may use simple things like their birthdays, son or daughter’s name, favorite dog, or cat, etc as a password. After setting these passwords, it is most likely one may want to use same passwords severally lest they get to a point where they have several passwords and do not know which one is for which system. If such a password is not properly secured, then we have become the bridge from which a whole company could get attacked.
+										<br /><br />
+										With the emergence of Agile Development processes, there is always the requirement to finish more in a short time but the ultimate fact to really consider is this; how much will each bug cost? As is known, a bug in a production environment has a greater impact than a bug on a development PC. 
+										<br /><br />
+										What causes bugs and entry points for hackers is hugely dependent on the level of planning invested in a project. The process of planning is never as expensive as the appearance of a bug or security hole at the end of a development. 
+										<br /><br />
+										Skill should not be considered more important than proper planning although both are required for a successful project. In the same way, a team must not use tools, plugins, or libraries they have not carefully studied and understood. Some of the cybercrimes people experience is not because of bad design but because of the use of a library or tool that was not properly investigated or understood.
+										<br /><br />
+										Working in a team, every concern must be considered and carefully analyzed. We must never assume that everyone knows what they are doing. There should be enough communication and support systems between team members to ensure agreed designs and procedures are respected.
+										<br /><br />
+										Additionally, there should be a strong use of unit tests in the whole system in order to ensure what we have is doing what It is expected to do. In the absence proper unit tests, we are most likely to have a system that may produce unexpected results when combined with other parts of the system or development. Unit tests also help us with refactoring our codes safely.
+										<br /><br />
+										One other very important part of Testing is Validation and Verification. For instance, if we had to develop a component, we would need to validate that the component is doing what it claims to do however, it may just be a wonderful piece of working component that is not solving the problem we set out to solve. So, we would have to do verification, which focuses on ensuring the component is doing what we agreed on. This adds a layer of security to out system since we are both validating and verifying the component from all angles including security protocols agreed on at the start of the project.
+										<br /><br />
+										A software cycle never actually ends, there must always be processes of monitoring, analyzing and improvements done which all forms a part of maintenance. Any software or application that is not maintained holds the tendency of becoming a security risk in the future. 
+										<br /><br />
+										As technology is growing; cybercrime is as well growing and with it, languages and frameworks are consistently keeping step with security risks by improving and introducing newer methods for dealing with these threats. So if a library becomes open to threats and we fail to update them, we put ourselves in harm’s way.
+										<br /><br />
+										In conclusion, working in a team has taught me to appreciate and value all the different opinions, cultures and processes that each person may be accustomed to, however insisting on coming to a solid understanding is always a major step to having a secured system.
+
 										<br /><br />
 										<b>References here are based on the entire course module, readings and study process.</b>
 									</p>
-									
-									<div class="container--tabs">
-										<section class="row">
-											<ul class="nav nav-tabs">
-												<li class="active"><a href="#tab-1">Object Oriented Information System</a></li>
-												<li class=""><a href="#tab-2">System Design - UML</a></li>
-												<!-- <li class=""><a href="#tab-3">Databases</a></li> -->
-											</ul>
-											<div class="tab-content">
-												<div id="tab-1" class="tab-pane active"> 
-													<span class="glyphicon glyphicon-leaf glyphicon--home--feature two columns text-center"></span>
-													<span class="col-md-10">
-														<h3>Object Oriented Information System</h3>
-														As powerful as python is, the question is still raised if it can really be considered as an OOP supported language. 
-														OOP has 5 main concepts (Encapsulation, Polymorphism, Abstraction, Classes and Objects, and Inheritance) although some 
-														would argue to say there are other concepts but generally my argument would be
-														the other presented arguments of addition are practically things you must include anyway. example of such a concept
-														is methods. Methods would have to be implemented in a class anyway so separating them in my view is as compared to 
-														a TV without a viewing possibility. Its possibly what the world calls a radio and not a TV.
-														<br /><br />
-														Now considering that these 5 OOP concepts are about the core of defining a language to be OOP supported or not, 
-														the absence of abstraction in python makes it fall short of the actual concept. Yes, there are alternatives to implementing abstraction
-														but since this is not explicit and leans more on conventions than the possibility of enforcing rules, it still remains a short coming.
-														<br /><br />
-														I however find it still advantageous. In my experience of working with OOP, implementing a unit test becomes mostly difficult with the 
-														presence of abstractions and the singleton design pattern. Most languages recently are providing possibilities to being able to still access
-														or test abstracted methods in a class which goes back to defy the original NO ACCESS concept of abstraction, which comes back again to 
-														question the very start of the idea of implementing abstractions in the first place. The question of are they really relevant also comes in. 
-														The only possibility of accessing any code at all is within a development team and so a convention would sem to be more relevant than an enforcement.
-														Developments should not be treated as users in the first place.
-														<br /><br />
-														Of course, the above can all be argued again. Which brings us to a conclusion of preference. Perhaps in the future we will have a bit more freedom to decide
-														if we want to implement an enforced abstraction environment or just conventions. till then, we simply change public to private or vice versa and keep going.
-													</p>
-													</span>
-												</div> 
-												<div id="tab-2" class="tab-pane">
-													<span class="glyphicon glyphicon-fire glyphicon--home--feature two columns text-center"></span>
-													<span class="col-md-10">
-														<h3>System Design - UML</h3>
-														<p>
-															It is first of all worth noting that UMLs are not the entire design process of a software design or planning cycle,
-															There are a lot more that spans through and includes user stories, developer stories and more. However having this,
-															proves to be very useful. At a point in my life I loved to just implement ideas as they came which may seem to be
-															a more agile way to finish a project but the cost of having to revisit completed parts of a project with the code
-															breaks and system failures, I come to realize that it gives more value when we carefully plan a system, consider 
-															all outcomes, ensure we have considered all possibilities, the domain is well understood and even as it is impossible to
-															know all outcomes, the most of it is thought of. This process saves time and money. And even in a SCRUM environment,
-															a visit to previous parts of the system, prevents breaks and we can have a running system even with patches and major modifications.
-														</p>
-													</span>
-												</div>
-												<div id="tab-3" class="tab-pane">
-													<span class="glyphicon glyphicon-fire glyphicon--home--feature two columns text-center"></span>
-													<span class="col-md-10">
-														<h3>Databases</h3>
-														<p>
-															Lets Make some interesting comments here.
-
-														</p>
-													</span>
-												</div>
-											</div>
-										</section>
-									</div>									
+																	
 	
 								</div>
 							</section>
