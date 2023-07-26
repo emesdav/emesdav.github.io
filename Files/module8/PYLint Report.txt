@@ -1,0 +1,172 @@
+Welcome.py:5:0: C0301: Line too long (108/100) (line-too-long)
+Welcome.py:27:0: C0301: Line too long (114/100) (line-too-long)
+Welcome.py:35:0: C0301: Line too long (115/100) (line-too-long)
+Welcome.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Welcome.py:1:0: C0103: Module name "Welcome" doesn't conform to snake_case naming style (invalid-name)
+Welcome.py:8:4: C0103: Constant name "logs_directory" doesn't conform to UPPER_CASE naming style (invalid-name)
+Welcome.py:2:0: C0411: standard import "import logging" should be placed before "import streamlit as st" (wrong-import-order)
+Welcome.py:3:0: C0411: standard import "import os" should be placed before "import streamlit as st" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.42/10
+
+
+task.py:38:0: C0301: Line too long (112/100) (line-too-long)
+task.py:57:0: C0301: Line too long (102/100) (line-too-long)
+task.py:79:0: C0305: Trailing newlines (trailing-newlines)
+task.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+task.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:29:4: W0105: String statement has no effect (pointless-string-statement)
+task.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:35:4: R0913: Too many arguments (8/5) (too-many-arguments)
+task.py:43:15: W0718: Catching too general exception Exception (broad-exception-caught)
+task.py:43:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+task.py:44:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+task.py:47:4: W0105: String statement has no effect (pointless-string-statement)
+task.py:53:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:53:32: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+task.py:60:15: W0718: Catching too general exception Exception (broad-exception-caught)
+task.py:60:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+task.py:61:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+task.py:64:4: W0105: String statement has no effect (pointless-string-statement)
+task.py:71:4: C0116: Missing function or method docstring (missing-function-docstring)
+task.py:76:15: W0718: Catching too general exception Exception (broad-exception-caught)
+task.py:76:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+task.py:77:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+task.py:2:0: C0411: standard import "import logging" should be placed before "import pandas as pd" (wrong-import-order)
+task.py:1:0: W0611: Unused pandas imported as pd (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 4.35/10 (previous run: 5.33/10, -0.99)
+
+
+staff.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+staff.py:3:0: W0105: String statement has no effect (pointless-string-statement)
+staff.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+staff.py:20:15: W0718: Catching too general exception Exception (broad-exception-caught)
+staff.py:20:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+staff.py:21:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+staff.py:24:4: W0105: String statement has no effect (pointless-string-statement)
+staff.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+staff.py:30:32: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+staff.py:35:15: W0718: Catching too general exception Exception (broad-exception-caught)
+staff.py:35:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+staff.py:36:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+staff.py:39:4: W0105: String statement has no effect (pointless-string-statement)
+staff.py:45:4: C0116: Missing function or method docstring (missing-function-docstring)
+staff.py:50:15: W0718: Catching too general exception Exception (broad-exception-caught)
+staff.py:50:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+staff.py:51:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+
+-----------------------------------
+Your code has been rated at 3.70/10
+
+project.py:11:0: C0301: Line too long (127/100) (line-too-long)
+project.py:22:0: C0301: Line too long (117/100) (line-too-long)
+project.py:109:0: C0301: Line too long (117/100) (line-too-long)
+project.py:116:0: C0301: Line too long (119/100) (line-too-long)
+project.py:126:0: C0301: Line too long (110/100) (line-too-long)
+project.py:131:0: C0301: Line too long (112/100) (line-too-long)
+project.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+project.py:4:0: W0105: String statement has no effect (pointless-string-statement)
+project.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:51:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:19:12: W1201: Use lazy % formatting in logging functions (logging-not-lazy)
+project.py:51:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:52:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:55:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:74:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:57:12: W1201: Use lazy % formatting in logging functions (logging-not-lazy)
+project.py:74:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:75:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:77:4: W0105: String statement has no effect (pointless-string-statement)
+project.py:86:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:97:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:97:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:98:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:86:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+project.py:102:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:114:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:109:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:112:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:114:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:115:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:121:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:129:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:126:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:127:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:129:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:130:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:135:4: C0116: Missing function or method docstring (missing-function-docstring)
+project.py:144:15: W0718: Catching too general exception Exception (broad-exception-caught)
+project.py:141:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:142:12: C0103: Variable name "df" doesn't conform to snake_case naming style (invalid-name)
+project.py:144:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+project.py:145:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+project.py:2:0: C0411: standard import "import logging" should be placed before "import pandas as pd" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 4.94/10
+
+material.py:17:0: C0301: Line too long (119/100) (line-too-long)
+material.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+material.py:3:0: W0105: String statement has no effect (pointless-string-statement)
+material.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+material.py:21:15: W0718: Catching too general exception Exception (broad-exception-caught)
+material.py:21:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+material.py:22:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+material.py:25:4: W0105: String statement has no effect (pointless-string-statement)
+material.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+material.py:31:40: C0103: Argument name "df" doesn't conform to snake_case naming style (invalid-name)
+material.py:36:15: W0718: Catching too general exception Exception (broad-exception-caught)
+material.py:36:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+material.py:37:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+material.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+material.py:46:15: W0718: Catching too general exception Exception (broad-exception-caught)
+material.py:46:8: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+material.py:47:12: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+
+-----------------------------------
+Your code has been rated at 3.70/10
+
+
+pages/1_Create_new_project.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+pages/1_Create_new_project.py:1:0: C0103: Module name "1_Create_new_project" doesn't conform to snake_case naming style (invalid-name)
+pages/1_Create_new_project.py:3:0: E0401: Unable to import 'project' (import-error)
+pages/1_Create_new_project.py:27:0: W0702: No exception type(s) specified (bare-except)
+pages/1_Create_new_project.py:4:0: C0411: standard import "import sqlite3" should be placed before "import streamlit as st" (wrong-import-order)
+pages/1_Create_new_project.py:5:0: C0411: standard import "import logging" should be placed before "import streamlit as st" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.37/10
+
+
+pages/2_Edit_existing_project.py:73:0: C0301: Line too long (119/100) (line-too-long)
+pages/2_Edit_existing_project.py:92:0: C0301: Line too long (103/100) (line-too-long)
+pages/2_Edit_existing_project.py:113:0: C0301: Line too long (106/100) (line-too-long)
+pages/2_Edit_existing_project.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+pages/2_Edit_existing_project.py:1:0: C0103: Module name "2_Edit_existing_project" doesn't conform to snake_case naming style (invalid-name)
+pages/2_Edit_existing_project.py:3:0: E0401: Unable to import 'project' (import-error)
+pages/2_Edit_existing_project.py:4:0: E0401: Unable to import 'staff' (import-error)
+pages/2_Edit_existing_project.py:5:0: E0401: Unable to import 'task' (import-error)
+pages/2_Edit_existing_project.py:6:0: E0401: Unable to import 'material' (import-error)
+pages/2_Edit_existing_project.py:14:0: W0702: No exception type(s) specified (bare-except)
+pages/2_Edit_existing_project.py:7:0: C0411: standard import "import logging" should be placed before "import streamlit as st" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.75/10
+
+
+pages/3_Project_costs.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+pages/3_Project_costs.py:1:0: C0103: Module name "3_Project_costs" doesn't conform to snake_case naming style (invalid-name)
+pages/3_Project_costs.py:3:0: E0401: Unable to import 'project' (import-error)
+pages/3_Project_costs.py:12:0: W0702: No exception type(s) specified (bare-except)
+pages/3_Project_costs.py:2:0: C0411: standard import "import sqlite3" should be placed before "import streamlit as st" (wrong-import-order)
+pages/3_Project_costs.py:4:0: C0411: third party import "import pandas as pd" should be placed before "from project import ProjectFromGui as pj" (wrong-import-order)
+pages/3_Project_costs.py:5:0: C0411: standard import "import logging" should be placed before "import streamlit as st" (wrong-import-order)
+
+-----------------------------------
+Your code has been rated at 7.44/10
+
